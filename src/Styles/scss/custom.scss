@@ -1,0 +1,13 @@
+
+// custom.scss
+
+$primary: #005d64;
+$primary-text: #ffffff; // Optional: Set text color for proper contrast
+
+$secondary: #0097A3;
+$secondary-text: #ffffff;
+
+// Import Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Your additional custom styles can go here

@@ -1,0 +1,26 @@
+:where(.css-dev-only-do-not-override-1vr7spz).ant-card .ant-card-meta-title {
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 600;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.custom-input:hover{
+    border-color: var(--primary) !important; /* Replace with your desired border color */
+}
+.custom-input:focus{
+    border-color: var(--primary) !important; /* Replace with your desired border color */
+}
+
+:where(.css-dev-only-do-not-override-1vr7spz).ant-input-affix-wrapper:focus, :where(.css-dev-only-do-not-override-1vr7spz).ant-input-affix-wrapper-focused {
+    border-color: var(--primary) !important;
+    box-shadow: 0 0 0 3px rgba(5, 145, 255, 0.1);
+    outline: 0;
+}
+.ant-modal-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }

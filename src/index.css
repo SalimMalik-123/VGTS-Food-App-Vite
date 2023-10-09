@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+:root {
+  --primary: #006870;
+  --primary-2 : #005d64;
+  --secondary: #0097A3 ;
+  --secondary2 : #008792;
+  --tertiary-color : #f1f7f8;
+  --white: #FFFFFF;
+  --font-color: #364152;/* old 364152*/
+  --ancent: #eef2f6;
+  --bg-light:#eef2f6;
+  --font : 'Quicksand';
+  --bg-white :#ffffff;
+}
+/* CSS Reset */
+body, html,#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--font)!important;
+  font-weight: normal!important;
+  /* font-size: 0.875rem!important; */
+  color: var(--font-color)!important;
+  -webkit-font-smoothing: antialiased;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 20px #ecf0f1; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#a5acb6; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #788292; 
+}

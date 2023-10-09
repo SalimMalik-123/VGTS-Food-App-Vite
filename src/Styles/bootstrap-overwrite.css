@@ -1,0 +1,46 @@
+
+.fw-400{
+    font-weight: 400!important;
+  }
+  .fw-600{
+    font-weight: 600!important;
+  }
+  .fw-800{
+    font-weight: 800!important;
+  }
+  
+  h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: bold!important;
+    line-height: 1.2;
+  }
+  
+  /* .bg-primary {
+      --bs-bg-opacity: 1;
+      background-color: rgba(var(--white), var(--bs-bg-opacity)) !important;
+    } */
+  
+   .text-white {
+      --bs-text-opacity: 1;
+      color: rgba(var(--white),var(--bs-text-opacity))!important;
+  }
+  
+  .bg-white{
+    background-color: var(--bg-white)!important;
+  }
+  .bg-inherit{
+    background-color: inherit!important;
+  }
+  .bg-ancent{
+    background-color: var(--bg-light)!important ;
+  }
+  .rounded-3 {
+    border-radius: 0.5rem!important;
+  }
+  .rounded-4 {
+    border-radius: 1rem!important;
+  }
+  .fw-normal{
+    font-weight: normal!important;
+  }
